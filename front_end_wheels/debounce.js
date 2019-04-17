@@ -39,13 +39,6 @@ var returnedFunction = debounce(function() {
 window.addEventListener('resize', returnedFunction);
 
 
-var matrix = [
-    [3,2,3],
-    [2,1,2]
-]
-
-console.log('row ' + matrix.length);
-console.log('col' + matrix[0].length);
 
 
 // 简化版
