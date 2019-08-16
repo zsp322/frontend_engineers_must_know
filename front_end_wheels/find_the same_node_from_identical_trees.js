@@ -10,10 +10,7 @@
 //     <div>
 //       <div></div>
 //     </div>
-    
 //     <div></div>
-      
-    
 //     <div>
 //       <div>
 //         <div id="nodeA"></div>
@@ -21,7 +18,6 @@
 //       </div>
 //     </div>
 //   </div>
-    
 //   <div id="rootB">
 //     <div>
 //       <div></div>
