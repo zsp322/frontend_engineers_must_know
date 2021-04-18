@@ -1,4 +1,4 @@
-#HTML
+HTML
 Semantic HTML
 Doctype
 meta tags
@@ -58,6 +58,39 @@ Design dropdown menu
 Design datepicker/timepicker
 REST vs RPC
 Design Infinite scroll
+
+
+How to hide element (visually hide)
+CSS grid v.s. Flexbox v.s. Float
+Accessibility
+SEO optimization
+
+Implement(HTML, CSS, Javascript):
+Autocomplete
+Modal
+Progress bar
+Star widget
+Timer
+Carousel
+Masonry
+Input Validator
+
+Implement (Javascript):
+Promise
+Promise with limit
+Promise.all
+querySelector
+EvenEmitter
+Observable
+Flat array
+Given two identical DOM tree structures, A and B, and a node from A, find the corresponding node in B.
+
+
+Implement (Util function)
+Debounce
+Throttle
+Memoize
+Retry
 
 
 
