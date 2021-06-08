@@ -1,23 +1,37 @@
-<script>
-
-
-
-    function throttled(func, delay) {
-        let inThrottle; // When a function coming, while this variable is false. then no function will be triggered
-        return function executetedFunction () {
-            const args= arguments;
-            const context = this;
-
-            if (!inThrottle) {
-                func.apply(this, arguments);
-                inThrottle = true;
-                setTimeout(() => inThrottle = false, delay);
-            }
-        }
-    }
-
-    var returnedFunction = throttled(function() {
-        console.log("I am testing on trottling function")
-    }, 2500);
-    window.addEventListener('resize', returnedFunction);
-</script>
+<!DOCTYPE html>
+<style>
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+​
+ul {
+  display: flex;
+  padding-left: 0;
+  list-style-type: none;
+}
+​
+li {
+  margin: 5px;
+}
+​
+.active {
+  color: #ffd700;
+}
+</style>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+    <meta charset="UTF-8" />
+  </head>
+​
+  <body>
+    <div class="stars-container"></div>
+    <div>Current rating: <span id="rating">0</span></div>
+    <script src="start_widget.js"></script>
+  </body>
+</html>
