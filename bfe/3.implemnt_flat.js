@@ -1,3 +1,6 @@
+// 这题比较简单
+// 就是简单的leetcode题，不要害怕
+
 function flat (arr, depth = 1) {
     const result = [];
     const stack = [...arr.map(item => ([item, depth]))];

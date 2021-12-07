@@ -1,10 +1,21 @@
+<html>
+<body>
 <div class="tooltip">Hover over me
   <span class="tooltiptext">Tooltip text</span>
 </div>
 
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+  Tooltip on top
+</button>
+
+
+</body>
+</html>
+
 <style>
     /* Tooltip container */
 .tooltip {
+  margin-top: 20px;
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
